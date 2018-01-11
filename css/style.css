@@ -1,0 +1,14 @@
+#header {
+  display: flex;
+  height: 100px
+  width: 600px
+  border-bottom: 1px solid black;
+}
+
+h4 {
+  color: MediumAquamarine;
+}
+
+nav {
+  justify-content: flex-end;
+}
