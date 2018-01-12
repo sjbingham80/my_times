@@ -1,14 +1,35 @@
-#header {
+.header {
   display: flex;
-  height: 100px
-  width: 600px
-  border-bottom: 1px solid black;
+  border-bottom: solid 1px black;
+  align-items: center;
+  height: 75px;
+  width: 100%;
+  font-family: verdana;
+  font-size: 14px
+  font-weight: bold;
+  justify-content: space-between;
+}
+.logo {
+  display: inline-flex;
+  padding: 10px;
 }
 
-h4 {
+.header h4 {
   color: MediumAquamarine;
+  margin-left: 10px;
+
 }
 
-nav {
-  justify-content: flex-end;
+nav a {
+  color: black;
+  flex-direction: row;
+  height: 75px;
+  text-decoration: underline;
+  margin: 10px;
+  font-weight: bold;
+}
+
+.nav {
+  flex-direction: row;
+
 }
