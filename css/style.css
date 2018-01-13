@@ -1,3 +1,5 @@
+
+
 .header {
   display: flex;
   border-bottom: solid 1px black;
@@ -17,7 +19,6 @@
 .header h4 {
   color: MediumAquamarine;
   margin-left: 10px;
-
 }
 
 nav a {
@@ -31,5 +32,28 @@ nav a {
 
 .nav {
   flex-direction: row;
+}
 
+.content {
+  display: flex;
+  justify-content: center;
+
+}
+
+.large {
+  display: flex;
+  width: 630px;
+  flex-wrap: wrap;
+}
+
+.medium{
+  display: flex;
+  width: 300px;
+  flex-wrap: wrap;
+}
+
+.small {
+  display: flex;
+  width:240px;
+  flex-wrap: wrap;
 }
